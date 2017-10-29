@@ -1,0 +1,173 @@
+[Sun Oct 29 10:53:04.045696 2017] [mpm_event:notice] [pid 13817:tid 140461935862976] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Sun Oct 29 10:53:04.045785 2017] [core:notice] [pid 13817:tid 140461935862976] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 09:53:09.544582 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:49360] Not Found: /static/main/main.css
+[Sun Oct 29 09:53:09.551886 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:49378] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 09:53:09.559324 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:49380] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 09:53:09.560331 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:49382] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:42.974233 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51394] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:43.006455 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51396] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:43.018539 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51418] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:43.020383 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51420] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:43.031789 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51422] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:43.042059 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51424] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:44.841160 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51432] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:44.852943 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51430] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:44.854845 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51434] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:44.856316 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51436] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:44.886661 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51440] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:45.560863 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51444] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:45.571392 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51448] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:45.571573 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51446] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:45.571929 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51450] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:45.584765 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51452] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:45.599277 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51454] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:47.029011 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51460] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:47.035602 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51458] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:47.042474 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51462] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:47.043475 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51464] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:47.097107 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51466] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:47.108828 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51468] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:49.157334 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51474] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:49.166238 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51476] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:49.166557 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51478] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:49.172645 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51480] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:49.229540 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51482] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:49.243975 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51486] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:51.275415 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51492] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:51.277443 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51494] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:51.279475 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51490] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:51.286066 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51496] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:51.340361 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51498] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:51.354124 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51500] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:52.297931 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51504] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:52.305041 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51506] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:52.313303 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51508] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:52.313565 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51510] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:52.366557 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51512] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:52.382339 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51514] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:53.343473 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51518] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:53.350288 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51522] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:53.357229 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51520] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:53.358597 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51524] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:53.410766 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51526] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:53.423384 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51534] Not Found: /static/main/main.js
+[Sun Oct 29 10:08:57.439192 2017] [wsgi:error] [pid 13818:tid 140461765318400] [remote 192.168.1.108:51538] Not Found: /static/main/main.css
+[Sun Oct 29 10:08:57.445815 2017] [wsgi:error] [pid 13818:tid 140461748532992] [remote 192.168.1.108:51540] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:08:57.457310 2017] [wsgi:error] [pid 13818:tid 140461782103808] [remote 192.168.1.108:51542] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:08:57.458672 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51544] Not Found: /static/main/main.js
+[Sun Oct 29 10:09:01.253343 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51554] Not Found: /static/main/main.css
+[Sun Oct 29 10:09:41.680500 2017] [wsgi:error] [pid 13818:tid 140461756925696] [remote 192.168.1.108:51876] Not Found: /static/main/main.js
+[Sun Oct 29 10:09:41.792417 2017] [wsgi:error] [pid 13818:tid 140461773711104] [remote 192.168.1.108:51878] Not Found: /favicon.ico
+[Sun Oct 29 11:10:48.635569 2017] [mpm_event:notice] [pid 13817:tid 140461935862976] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 11:11:28.633606 2017] [mpm_event:notice] [pid 14364:tid 139845628896448] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Sun Oct 29 11:11:28.633699 2017] [core:notice] [pid 14364:tid 139845628896448] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 10:11:31.681222 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:52784] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:31.695932 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:52786] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:31.698272 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52788] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:31.698501 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:52790] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:32.599067 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:52816] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:32.608936 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52820] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:32.609234 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:52818] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:32.609497 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:52822] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:32.644594 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:52824] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:32.657794 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:52826] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:33.463589 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:52830] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:33.465949 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:52832] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:33.477694 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:52834] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:33.479312 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52836] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:33.502605 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:52838] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:47.180909 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:52960] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:47.187340 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52962] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:47.199536 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:52968] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:47.201386 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:52970] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:48.194276 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:52986] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:48.209329 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:52984] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:48.209618 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:52988] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:48.209908 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52990] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:48.254083 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:52992] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:48.265277 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:52994] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:54.292304 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53038] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:54.305991 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53040] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:54.306263 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53042] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:54.308090 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53044] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:56.974192 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:53050] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:11:56.985637 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53052] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:56.986529 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53048] Not Found: /static/main/main.css
+[Sun Oct 29 10:11:56.988011 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53054] Not Found: /static/main/main.js
+[Sun Oct 29 10:11:56.997347 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53058] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:11:57.007413 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53060] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:03.272198 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53064] Not Found: /static/main/main.css
+[Sun Oct 29 10:12:03.281927 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53068] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:03.282220 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53066] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:12:03.282500 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53070] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:03.294277 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:53072] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:03.304291 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53074] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:06.614300 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:53080] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:06.615198 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53078] Not Found: /static/main/main.css
+[Sun Oct 29 10:12:06.626659 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53084] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:12:06.627728 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53082] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:06.658528 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53086] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:06.668480 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53088] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:11.091502 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53094] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:11.097910 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53096] Not Found: /static/main/main.css
+[Sun Oct 29 10:12:11.099491 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53092] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:12:11.105729 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53098] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:11.125101 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:53100] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:11.135965 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53102] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:12.293944 2017] [wsgi:error] [pid 14365:tid 139845475137280] [remote 192.168.1.108:53108] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:12:12.300716 2017] [wsgi:error] [pid 14365:tid 139845441566464] [remote 192.168.1.108:53106] Not Found: /static/main/main.css
+[Sun Oct 29 10:12:12.302509 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53110] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:12.309158 2017] [wsgi:error] [pid 14365:tid 139845458351872] [remote 192.168.1.108:53112] Not Found: /static/main/main.js
+[Sun Oct 29 10:12:12.315357 2017] [wsgi:error] [pid 14365:tid 139845449959168] [remote 192.168.1.108:53114] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:12:12.327132 2017] [wsgi:error] [pid 14365:tid 139845466744576] [remote 192.168.1.108:53116] Not Found: /static/main/main.js
+[Sun Oct 29 11:14:43.251137 2017] [mpm_event:notice] [pid 14364:tid 139845628896448] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 11:20:46.970955 2017] [mpm_event:notice] [pid 14440:tid 140321251517632] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Sun Oct 29 11:20:46.971041 2017] [core:notice] [pid 14440:tid 140321251517632] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 10:20:49.769427 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53198] Not Found: /static/main/main.css
+[Sun Oct 29 10:20:49.781159 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53202] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:49.781492 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53200] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:20:49.781825 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53204] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:49.835597 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53206] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:49.847377 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53208] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:50.644274 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53216] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:20:50.650897 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53214] Not Found: /static/main/main.css
+[Sun Oct 29 10:20:50.652293 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53218] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:50.658188 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53220] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:50.664065 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53222] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:50.674343 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53224] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:51.355191 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53228] Not Found: /static/main/main.css
+[Sun Oct 29 10:20:51.363105 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53232] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:51.363322 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53230] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:20:51.365381 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53234] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:51.375010 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53236] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:51.385405 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53238] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:52.000524 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53244] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:52.011318 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53242] Not Found: /static/main/main.css
+[Sun Oct 29 10:20:52.014135 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53248] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:20:52.014431 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53246] Not Found: /static/main/main.js
+[Sun Oct 29 10:20:52.025306 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53250] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:20:52.035591 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53252] Not Found: /static/main/main.js
+[Sun Oct 29 10:21:06.319774 2017] [wsgi:error] [pid 14441:tid 140321097758464] [remote 192.168.1.108:53304] Not Found: /static/wojodesign-simplecart-js-51a9a38/test/inc/jquery.1.6.1.min.js
+[Sun Oct 29 10:21:06.332056 2017] [wsgi:error] [pid 14441:tid 140321064187648] [remote 192.168.1.108:53302] Not Found: /static/main/main.css
+[Sun Oct 29 10:21:06.334305 2017] [wsgi:error] [pid 14441:tid 140321080973056] [remote 192.168.1.108:53312] Not Found: /static/main/main.js
+[Sun Oct 29 10:21:06.340855 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53310] Not Found: /static/wojodesign-simplecart-js-51a9a38/simpleCart.js
+[Sun Oct 29 10:21:26.805675 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53340] Not Found: /static/main/main.css
+[Sun Oct 29 10:21:46.091680 2017] [wsgi:error] [pid 14441:tid 140321072580352] [remote 192.168.1.108:53496] Not Found: /static
+[Sun Oct 29 10:21:55.338495 2017] [wsgi:error] [pid 14441:tid 140321089365760] [remote 192.168.1.108:53570] Not Found: /static/main/main.js
+[Sun Oct 29 11:26:31.646621 2017] [mpm_event:notice] [pid 14440:tid 140321251517632] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 11:26:35.837322 2017] [mpm_event:notice] [pid 14504:tid 139744904099008] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Sun Oct 29 11:26:35.837404 2017] [core:notice] [pid 14504:tid 139744904099008] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 10:35:28.956151 2017] [wsgi:error] [pid 14505:tid 139744716769024] [remote 176.10.136.192:34418] Not Found: /favicon.ico
+[Sun Oct 29 11:38:00.022156 2017] [mpm_event:notice] [pid 14504:tid 139744904099008] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 11:41:19.644381 2017] [mpm_event:notice] [pid 15435:tid 140093791073472] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Sun Oct 29 11:41:19.644477 2017] [core:notice] [pid 15435:tid 140093791073472] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 11:47:13.161628 2017] [mpm_event:notice] [pid 15435:tid 140093791073472] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 11:47:14.604156 2017] [ssl:emerg] [pid 15525:tid 140699137471680] AH02562: Failed to configure certificate itgmarket.se:443:0 (with chain), check /etc/letsencrypt/csr/0000_csr-certbot.pem
+[Sun Oct 29 11:47:14.604215 2017] [ssl:emerg] [pid 15525:tid 140699137471680] SSL Library Error: error:0906D06C:PEM routines:PEM_read_bio:no start line (Expecting: TRUSTED CERTIFICATE) -- Bad file contents or format - or even just a forgotten SSLCertificateKeyFile?
+[Sun Oct 29 11:47:14.604235 2017] [ssl:emerg] [pid 15525:tid 140699137471680] SSL Library Error: error:140DC009:SSL routines:SSL_CTX_use_certificate_chain_file:PEM lib
+AH00016: Configuration Failed
+[Sun Oct 29 11:54:25.172541 2017] [ssl:warn] [pid 15577:tid 140302605464768] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 29 11:54:25.184178 2017] [ssl:warn] [pid 15579:tid 140302605464768] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 29 11:54:25.185030 2017] [ssl:warn] [pid 15579:tid 140302605464768] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 29 11:54:25.185752 2017] [mpm_event:notice] [pid 15579:tid 140302605464768] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Sun Oct 29 11:54:25.185774 2017] [core:notice] [pid 15579:tid 140302605464768] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
