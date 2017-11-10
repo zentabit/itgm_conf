@@ -171,3 +171,18 @@ AH00016: Configuration Failed
 [Sun Oct 29 11:54:25.185030 2017] [ssl:warn] [pid 15579:tid 140302605464768] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Oct 29 11:54:25.185752 2017] [mpm_event:notice] [pid 15579:tid 140302605464768] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
 [Sun Oct 29 11:54:25.185774 2017] [core:notice] [pid 15579:tid 140302605464768] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 11:22:19.088344 2017] [wsgi:error] [pid 15580:tid 140302442043136] [remote 176.10.136.192:43980] Not Found: /favicon.ico
+[Sun Oct 29 12:24:04.167672 2017] [mpm_event:notice] [pid 15579:tid 140302605464768] AH00491: caught SIGTERM, shutting down
+[Sun Oct 29 17:44:08.104603 2017] [ssl:warn] [pid 1159:tid 140500423627968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 29 17:44:08.116689 2017] [ssl:warn] [pid 1161:tid 140500423627968] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Oct 29 17:44:08.117540 2017] [ssl:warn] [pid 1161:tid 140500423627968] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Oct 29 17:44:08.118395 2017] [mpm_event:notice] [pid 1161:tid 140500423627968] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Sun Oct 29 17:44:08.118417 2017] [core:notice] [pid 1161:tid 140500423627968] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Oct 29 17:55:05.615772 2017] [authz_core:error] [pid 1184:tid 140500334475008] [client 83.254.21.59:49336] AH01630: client denied by server configuration: /srv/mod_wsgi-express-80/htdocs/
+[Sun Oct 29 17:55:07.827967 2017] [authz_core:error] [pid 1184:tid 140500333942528] [client 83.254.21.59:49337] AH01630: client denied by server configuration: /srv/mod_wsgi-express-80/htdocs/
+[Sun Oct 29 17:04:43.076212 2017] [wsgi:error] [pid 1162:tid 140500226635520] [remote 83.254.21.59:50015] Not Found: /favicon.ico
+[Sun Oct 29 17:04:44.541975 2017] [wsgi:error] [pid 1162:tid 140500260206336] [remote 83.254.21.59:50019] /usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField Order.date_time received a naive datetime (2017-10-29 17:04:44.538285) while time zone support is active.
+[Sun Oct 29 17:04:44.542005 2017] [wsgi:error] [pid 1162:tid 140500260206336] [remote 83.254.21.59:50019]   RuntimeWarning)
+[Sun Oct 29 17:04:44.551248 2017] [wsgi:error] [pid 1162:tid 140500260206336] [remote 83.254.21.59:50019] Order added.
+[Sun Oct 29 18:20:44.540607 2017] [authz_core:error] [pid 1184:tid 140500422379264] [client 40.77.167.29:12244] AH01630: client denied by server configuration: /srv/mod_wsgi-express-80/htdocs/
+[Sun Oct 29 18:45:42.506894 2017] [mpm_event:notice] [pid 1161:tid 140500423627968] AH00491: caught SIGTERM, shutting down
