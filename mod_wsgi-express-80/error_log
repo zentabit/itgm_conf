@@ -186,3 +186,161 @@ AH00016: Configuration Failed
 [Sun Oct 29 17:04:44.551248 2017] [wsgi:error] [pid 1162:tid 140500260206336] [remote 83.254.21.59:50019] Order added.
 [Sun Oct 29 18:20:44.540607 2017] [authz_core:error] [pid 1184:tid 140500422379264] [client 40.77.167.29:12244] AH01630: client denied by server configuration: /srv/mod_wsgi-express-80/htdocs/
 [Sun Oct 29 18:45:42.506894 2017] [mpm_event:notice] [pid 1161:tid 140500423627968] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 21:51:08.048471 2017] [mpm_event:notice] [pid 5062:tid 140278426617024] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 configured -- resuming normal operations
+[Fri Nov 10 21:51:08.048557 2017] [core:notice] [pid 5062:tid 140278426617024] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 21:57:42.047367 2017] [mpm_event:notice] [pid 5062:tid 140278426617024] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 21:57:44.416511 2017] [ssl:warn] [pid 5190:tid 140578252854464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 21:57:44.427071 2017] [ssl:warn] [pid 5192:tid 140578252854464] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 21:57:44.427757 2017] [ssl:warn] [pid 5192:tid 140578252854464] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 21:57:44.428342 2017] [mpm_event:notice] [pid 5192:tid 140578252854464] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 21:57:44.428359 2017] [core:notice] [pid 5192:tid 140578252854464] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 20:58:13.484861 2017] [wsgi:error] [pid 5193:tid 140578089436928] [remote 176.10.136.192:53268] Not Found: /favicon.ico
+[Fri Nov 10 20:58:14.938452 2017] [wsgi:error] [pid 5193:tid 140578055866112] [remote 176.10.136.192:53269] /usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField Order.date_time received a naive datetime (2017-11-10 20:58:14.934721) while time zone support is active.
+[Fri Nov 10 20:58:14.938493 2017] [wsgi:error] [pid 5193:tid 140578055866112] [remote 176.10.136.192:53269]   RuntimeWarning)
+[Fri Nov 10 20:58:14.949592 2017] [wsgi:error] [pid 5193:tid 140578055866112] [remote 176.10.136.192:53269] Order added.
+[Fri Nov 10 22:03:44.247550 2017] [mpm_event:notice] [pid 5192:tid 140578252854464] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 22:04:13.917100 2017] [ssl:warn] [pid 5280:tid 140514884007104] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:04:13.928065 2017] [ssl:warn] [pid 5282:tid 140514884007104] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 22:04:13.928916 2017] [ssl:warn] [pid 5282:tid 140514884007104] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:04:13.929659 2017] [mpm_event:notice] [pid 5282:tid 140514884007104] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 22:04:13.929693 2017] [core:notice] [pid 5282:tid 140514884007104] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 21:04:24.211689 2017] [wsgi:error] [pid 5283:tid 140514687018752] [remote 176.10.136.192:53334] Not Found: /favicon.ico
+[Fri Nov 10 21:04:25.380541 2017] [wsgi:error] [pid 5283:tid 140514720589568] [remote 176.10.136.192:53335] /usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField Order.date_time received a naive datetime (2017-11-10 21:04:25.379051) while time zone support is active.
+[Fri Nov 10 21:04:25.380574 2017] [wsgi:error] [pid 5283:tid 140514720589568] [remote 176.10.136.192:53335]   RuntimeWarning)
+[Fri Nov 10 21:04:25.391848 2017] [wsgi:error] [pid 5283:tid 140514720589568] [remote 176.10.136.192:53335] Order added.
+[Fri Nov 10 22:05:33.924471 2017] [mpm_event:notice] [pid 5282:tid 140514884007104] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 22:05:37.485075 2017] [ssl:warn] [pid 5332:tid 140482422760640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:05:37.495607 2017] [ssl:warn] [pid 5334:tid 140482422760640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 22:05:37.496291 2017] [ssl:warn] [pid 5334:tid 140482422760640] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:05:37.496887 2017] [mpm_event:notice] [pid 5334:tid 140482422760640] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 22:05:37.496904 2017] [core:notice] [pid 5334:tid 140482422760640] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 22:10:16.189159 2017] [mpm_event:notice] [pid 5334:tid 140482422760640] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 22:10:19.315816 2017] [ssl:warn] [pid 5421:tid 140031213675712] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:10:19.327545 2017] [ssl:warn] [pid 5423:tid 140031213675712] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 22:10:19.328390 2017] [ssl:warn] [pid 5423:tid 140031213675712] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:10:19.329108 2017] [mpm_event:notice] [pid 5423:tid 140031213675712] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 22:10:19.329147 2017] [core:notice] [pid 5423:tid 140031213675712] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 21:10:33.393959 2017] [wsgi:error] [pid 5424:tid 140031016687360] [remote 176.10.136.192:53428] Not Found: /favicon.ico
+[Fri Nov 10 21:10:41.157466 2017] [wsgi:error] [pid 5424:tid 140031050258176] [remote 176.10.136.192:53438] /usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField Order.date_time received a naive datetime (2017-11-10 21:10:41.155970) while time zone support is active.
+[Fri Nov 10 21:10:41.157500 2017] [wsgi:error] [pid 5424:tid 140031050258176] [remote 176.10.136.192:53438]   RuntimeWarning)
+[Fri Nov 10 21:10:41.168863 2017] [wsgi:error] [pid 5424:tid 140031050258176] [remote 176.10.136.192:53438] Order added.
+[Fri Nov 10 22:11:15.190034 2017] [mpm_event:notice] [pid 5423:tid 140031213675712] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 22:11:20.147560 2017] [ssl:warn] [pid 5470:tid 140350999151808] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:11:20.158860 2017] [ssl:warn] [pid 5472:tid 140350999151808] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 22:11:20.159582 2017] [ssl:warn] [pid 5472:tid 140350999151808] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:11:20.160190 2017] [mpm_event:notice] [pid 5472:tid 140350999151808] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 22:11:20.160207 2017] [core:notice] [pid 5472:tid 140350999151808] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 22:13:36.548382 2017] [mpm_event:notice] [pid 5472:tid 140350999151808] AH00491: caught SIGTERM, shutting down
+[Fri Nov 10 22:13:38.629610 2017] [ssl:warn] [pid 5542:tid 140324200867008] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:13:38.641066 2017] [ssl:warn] [pid 5544:tid 140324200867008] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 10 22:13:38.641861 2017] [ssl:warn] [pid 5544:tid 140324200867008] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 22:13:38.642499 2017] [mpm_event:notice] [pid 5544:tid 140324200867008] AH00489: Apache/2.4.25 (Debian) mod_wsgi/4.5.20 Python/3.5 OpenSSL/1.0.2l configured -- resuming normal operations
+[Fri Nov 10 22:13:38.642523 2017] [core:notice] [pid 5544:tid 140324200867008] AH00094: Command line: 'apache2 (mod_wsgi-express) -f /srv/mod_wsgi-express-80/httpd.conf -D MOD_WSGI_VIRTUAL_HOST -D MOD_WSGI_WITH_HTTPS -D MOD_WSGI_HTTPS_ONLY -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Fri Nov 10 21:17:04.666027 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] Internal Server Error: /order/
+[Fri Nov 10 21:17:04.666076 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] Traceback (most recent call last):
+[Fri Nov 10 21:17:04.666084 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:04.666091 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:04.666097 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+[Fri Nov 10 21:17:04.666103 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return Database.Cursor.execute(self, query, params)
+[Fri Nov 10 21:17:04.666109 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] sqlite3.OperationalError: attempt to write a readonly database
+[Fri Nov 10 21:17:04.666115 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] 
+[Fri Nov 10 21:17:04.666120 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] The above exception was the direct cause of the following exception:
+[Fri Nov 10 21:17:04.666126 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] 
+[Fri Nov 10 21:17:04.666132 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] Traceback (most recent call last):
+[Fri Nov 10 21:17:04.666137 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+[Fri Nov 10 21:17:04.666143 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     response = get_response(request)
+[Fri Nov 10 21:17:04.666149 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 142, in __call__
+[Fri Nov 10 21:17:04.666154 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     response = self.process_response(request, response)
+[Fri Nov 10 21:17:04.666160 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+[Fri Nov 10 21:17:04.666166 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     request.session.save()
+[Fri Nov 10 21:17:04.666171 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 81, in save
+[Fri Nov 10 21:17:04.666177 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return self.create()
+[Fri Nov 10 21:17:04.666182 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 54, in create
+[Fri Nov 10 21:17:04.666188 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     self.save(must_create=True)
+[Fri Nov 10 21:17:04.666193 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 87, in save
+[Fri Nov 10 21:17:04.666199 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     obj.save(force_insert=must_create, force_update=not must_create, using=using)
+[Fri Nov 10 21:17:04.666205 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 808, in save
+[Fri Nov 10 21:17:04.666220 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     force_update=force_update, update_fields=update_fields)
+[Fri Nov 10 21:17:04.666226 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 838, in save_base
+[Fri Nov 10 21:17:04.666231 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+[Fri Nov 10 21:17:04.666236 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 924, in _save_table
+[Fri Nov 10 21:17:04.666242 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+[Fri Nov 10 21:17:04.666247 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 963, in _do_insert
+[Fri Nov 10 21:17:04.666252 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     using=using, raw=raw)
+[Fri Nov 10 21:17:04.666257 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+[Fri Nov 10 21:17:04.666263 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Fri Nov 10 21:17:04.666268 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1076, in _insert
+[Fri Nov 10 21:17:04.666273 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return query.get_compiler(using=using).execute_sql(return_id)
+[Fri Nov 10 21:17:04.666278 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+[Fri Nov 10 21:17:04.666283 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     cursor.execute(sql, params)
+[Fri Nov 10 21:17:04.666288 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 80, in execute
+[Fri Nov 10 21:17:04.666293 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return super(CursorDebugWrapper, self).execute(sql, params)
+[Fri Nov 10 21:17:04.666298 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:04.666304 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:04.666309 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 94, in __exit__
+[Fri Nov 10 21:17:04.666314 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     six.reraise(dj_exc_type, dj_exc_value, traceback)
+[Fri Nov 10 21:17:04.666319 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/utils/six.py", line 685, in reraise
+[Fri Nov 10 21:17:04.666324 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     raise value.with_traceback(tb)
+[Fri Nov 10 21:17:04.666329 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:04.666339 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:04.666345 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+[Fri Nov 10 21:17:04.666350 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539]     return Database.Cursor.execute(self, query, params)
+[Fri Nov 10 21:17:04.666359 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] django.db.utils.OperationalError: attempt to write a readonly database
+[Fri Nov 10 21:17:04.666371 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53539] 
+[Fri Nov 10 21:17:05.085597 2017] [wsgi:error] [pid 5614:tid 140324037449472] [remote 176.10.136.192:53540] Not Found: /favicon.ico
+[Fri Nov 10 21:17:25.872689 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] Internal Server Error: /order/
+[Fri Nov 10 21:17:25.872735 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] Traceback (most recent call last):
+[Fri Nov 10 21:17:25.872742 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:25.872749 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:25.872755 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+[Fri Nov 10 21:17:25.872761 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return Database.Cursor.execute(self, query, params)
+[Fri Nov 10 21:17:25.872767 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] sqlite3.OperationalError: attempt to write a readonly database
+[Fri Nov 10 21:17:25.872772 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] 
+[Fri Nov 10 21:17:25.872777 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] The above exception was the direct cause of the following exception:
+[Fri Nov 10 21:17:25.872783 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] 
+[Fri Nov 10 21:17:25.872788 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] Traceback (most recent call last):
+[Fri Nov 10 21:17:25.872793 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 41, in inner
+[Fri Nov 10 21:17:25.872799 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     response = get_response(request)
+[Fri Nov 10 21:17:25.872804 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/utils/deprecation.py", line 142, in __call__
+[Fri Nov 10 21:17:25.872810 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     response = self.process_response(request, response)
+[Fri Nov 10 21:17:25.872815 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/middleware.py", line 58, in process_response
+[Fri Nov 10 21:17:25.872821 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     request.session.save()
+[Fri Nov 10 21:17:25.872826 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 81, in save
+[Fri Nov 10 21:17:25.872831 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return self.create()
+[Fri Nov 10 21:17:25.872849 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 54, in create
+[Fri Nov 10 21:17:25.872856 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     self.save(must_create=True)
+[Fri Nov 10 21:17:25.872861 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/contrib/sessions/backends/db.py", line 87, in save
+[Fri Nov 10 21:17:25.872867 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     obj.save(force_insert=must_create, force_update=not must_create, using=using)
+[Fri Nov 10 21:17:25.872872 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 808, in save
+[Fri Nov 10 21:17:25.872878 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     force_update=force_update, update_fields=update_fields)
+[Fri Nov 10 21:17:25.872883 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 838, in save_base
+[Fri Nov 10 21:17:25.872889 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+[Fri Nov 10 21:17:25.872894 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 924, in _save_table
+[Fri Nov 10 21:17:25.872900 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+[Fri Nov 10 21:17:25.872905 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/base.py", line 963, in _do_insert
+[Fri Nov 10 21:17:25.872911 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     using=using, raw=raw)
+[Fri Nov 10 21:17:25.872916 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/manager.py", line 85, in manager_method
+[Fri Nov 10 21:17:25.872922 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Fri Nov 10 21:17:25.872927 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/query.py", line 1076, in _insert
+[Fri Nov 10 21:17:25.872933 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return query.get_compiler(using=using).execute_sql(return_id)
+[Fri Nov 10 21:17:25.872938 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/models/sql/compiler.py", line 1107, in execute_sql
+[Fri Nov 10 21:17:25.872943 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     cursor.execute(sql, params)
+[Fri Nov 10 21:17:25.872949 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 80, in execute
+[Fri Nov 10 21:17:25.872954 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return super(CursorDebugWrapper, self).execute(sql, params)
+[Fri Nov 10 21:17:25.872959 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:25.872965 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:25.872975 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/utils.py", line 94, in __exit__
+[Fri Nov 10 21:17:25.872981 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     six.reraise(dj_exc_type, dj_exc_value, traceback)
+[Fri Nov 10 21:17:25.872987 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/utils/six.py", line 685, in reraise
+[Fri Nov 10 21:17:25.872992 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     raise value.with_traceback(tb)
+[Fri Nov 10 21:17:25.872998 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/utils.py", line 65, in execute
+[Fri Nov 10 21:17:25.873003 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return self.cursor.execute(sql, params)
+[Fri Nov 10 21:17:25.873009 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]   File "/usr/local/lib/python3.5/dist-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+[Fri Nov 10 21:17:25.873014 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548]     return Database.Cursor.execute(self, query, params)
+[Fri Nov 10 21:17:25.873022 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] django.db.utils.OperationalError: attempt to write a readonly database
+[Fri Nov 10 21:17:25.873035 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53548] 
+[Fri Nov 10 21:18:02.201647 2017] [wsgi:error] [pid 5614:tid 140324037449472] [remote 66.249.64.72:56199] Not Found: /robots.txt
+[Fri Nov 10 21:18:14.775782 2017] [wsgi:error] [pid 5614:tid 140324037449472] [remote 66.249.64.70:48736] Not Found: /favicon.ico
+[Fri Nov 10 21:19:40.980066 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53571] /usr/local/lib/python3.5/dist-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField Order.date_time received a naive datetime (2017-11-10 21:19:40.978559) while time zone support is active.
+[Fri Nov 10 21:19:40.980103 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53571]   RuntimeWarning)
+[Fri Nov 10 21:19:40.991049 2017] [wsgi:error] [pid 5614:tid 140324029056768] [remote 176.10.136.192:53571] Order added.

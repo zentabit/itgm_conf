@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ['manage.py', 'runmodwsgi', '--setup-only', '--port=80', '--user=www-data', '--group=www-data', '--server-root=/srv/mod_wsgi-express-80', '--https-only', '--https-port=443', '--ssl-certificate-file=/etc/letsencrypt/live/itgmarket.se/cert.pem', '--ssl-certificate-key-file=/etc/letsencrypt/live/itgmarket.se/privkey.pem', '--server-name=itgmarket.se']
+# ['manage.py', 'runmodwsgi', '--setup-only', '--https-port', '443', '--https-only', '--server-name', 'itgmarket.se', '--ssl-certificate-file', '/etc/letsencrypt/live/itgmarket.se/cert.pem', '--ssl-certificate-key-file', '/etc/letsencrypt/live/itgmarket.se/privkey.pem', '--user', 'www-data', '--group', 'www-data', '--server-root=/srv/mod_wsgi-express-80', '--port', '80']
 
 HTTPD="/usr/sbin/apache2"
 HTTPD_ARGS="-f /srv/mod_wsgi-express-80/httpd.conf -DMOD_WSGI_VIRTUAL_HOST -DMOD_WSGI_WITH_HTTPS -DMOD_WSGI_HTTPS_ONLY -DMOD_WSGI_MPM_ENABLE_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_WORKER_MODULE -DMOD_WSGI_MPM_EXISTS_PREFORK_MODULE"
